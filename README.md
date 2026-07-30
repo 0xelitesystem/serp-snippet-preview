@@ -34,6 +34,10 @@ Everything runs client-side. No analytics, no cookies, no network calls, no loca
 - [open-graph-preview-tester](https://github.com/0xelitesystem/open-graph-preview-tester)
 - [heading-outline-checker](https://github.com/0xelitesystem/heading-outline-checker)
 
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
+
 ## License
 
 MIT, copyright 0xelitesystem 2026.
