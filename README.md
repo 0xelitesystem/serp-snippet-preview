@@ -18,15 +18,32 @@ Single HTML file. Runs in the browser with no build step, no server, no tracking
 - Not a live SERP. Search engines often rewrite titles and descriptions on their own
 - Not a ranking tool. It checks presentation, not position
 
-## Use it
+## Use
 
 Open the hosted page: https://0xelitesystem.github.io/serp-snippet-preview/
 
 Or download `index.html` and open it in any browser. It works offline.
 
+## Why this exists
+
+A title that runs past the pixel limit gets cut off in search results, and that is easy to miss until the page is live. This preview shows the cutoff before you publish. It is one HTML file with no tracking and no network calls. MIT licensed.
+
 ## Privacy
 
 Everything runs client-side. No analytics, no cookies, no network calls, no local storage.
+
+## Run locally
+
+```bash
+git clone https://github.com/0xelitesystem/serp-snippet-preview
+cd serp-snippet-preview
+```
+
+Open `index.html` in any browser. Or serve the folder with `python -m http.server 8000` and visit http://localhost:8000/.
+
+## Build
+
+No build step. The whole tool is one `index.html` file with its CSS, JavaScript and font subsets inline.
 
 ## Related
 
